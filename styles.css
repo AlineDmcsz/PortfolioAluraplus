@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --azul-terciario: #167BF7;
+    --cor-de-fundo: #00030C;
+    --font-size-tiny: 14px;
+    --peso-fonte-tiny: 400;
+    --font-size-small: 16px;
+    --peso-fonte-small: 400;
+    --font-size-medium: 28px;
+    --peso-fonte-medium: 700;
+    --font-size-large: 32px;
+    --peso-fonte-large: 700;
+    --font-size-xlarge: 48px;
+    --peso-fonte-xlarge: 700;
+    --fonte-principal: "Inter", sans-serif;
+    --botao-azul-efeito: #3b86e3;
+}
+.conteudo {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+.conteudo--texto {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--font-size-medium);
+    font-weight: var(--peso-fonte-medium);
+    text-align: center;
+}
+.principal {
+    background-image: url(IMG/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container--botao {
+    background-color: var(--azul-terciario);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--font-size-small);
+    font-weight: var(--peso-fonte-small);
+    text-decoration: none;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.botao--secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);     
+
+}
+.container--aviso {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: var(--font-size-tiny);
+    font-weight: var(--peso-fonte-tiny);
+    text-align: center;
+}
+.container--imagem {
+    margin: 1em 0 2em 0em;
+}
+.container--caixa {
+    margin: 0 6em;
+}
+.container--titulo {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--font-size-xlarge);
+    font-weight: var(--peso-fonte-xlarge);
+    margin-bottom: 0.2em;
+}
+.container--informacao {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: var(--font-size-small);
+    font-weight: var(--peso-fonte-small);
+    margin-right: 10em;
+    margin-bottom: 1em;
+}
+.imagem--secundario {
+    width: 80%;
+    margin-left: 2em;
+}
+.secundario {
+    align-items: center;
+    margin: 0 6em;
+}
+.botao--terciario {
+    display: inline-block;
+}
+.container--descricao {
+    padding: 2em;
+}
+.nome--dispositivos {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--font-size-large);
+    font-weight: var(--peso-fonte-large);
+}
+.container--lista{
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin: 5em 0;
+}
+.container--dispositivos {
+    text-align: center;
+}
+.rodape {
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+}
+.a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1em;
+}
+.rodape--lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em 0;
+    text-decoration: none;
+    color: inherit;
+}
+.lista--link a:hover {
+font-family: var(--fonte-principal);
+font-size: var(--font-size-small);
+font-weight: var(--peso-fonte-small);
+color: var(--azul-terciario);
+}
+.lista--link-2{
+ text-decoration: none;
+font-family: var(--fonte-principal);
+font-size: var(--font-size-small);
+font-weight: var(--peso-fonte-small);
+color: var(--branco-principal);
+padding: 2em;
+}
+.rodape--texto {
+    font-family: var(--cinza-secundario);
+    font-size: var(--font-size-tiny);
+    font-weight: var(--peso-fonte-tiny); 
+    color: var(--cinza-secundario);  
+}
+.primeiro{
+    padding: 0 0 1em 0;
+}
+.segundo {
+margin: 0em 25em 10em 25em;
+}
+.container--botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}

@@ -1,1 +1,1 @@
-Esse é um projteo criado do curso da Alura, Praticando HTML e CSS.
+Esse projeto foi criado a fim de aprender a praticar o HTML e CSS com os cursos da Alura, onde aprendi a utilizar nav bar, âncoras, botoes, estilizações, e a desenvolver footer usando designs criados no Figma para me guiar durante a produção do projeto.
